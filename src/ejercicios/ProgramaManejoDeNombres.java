@@ -7,7 +7,7 @@ public class ProgramaManejoDeNombres {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Pedimos los nombres por teclado
+        // Pedimos los nombres por teclado 
         System.out.print("Introduce el primer nombre: ");
         String nombre1 = scanner.nextLine();
 
