@@ -44,7 +44,6 @@ public class MantenedorProductos {
                 case 1:
                     JOptionPane.showMessageDialog(null, "Producto actualizado correctamente");
                     break;
-
                 case 2:
                     JOptionPane.showMessageDialog(null, "Producto eliminado correctamente");
                     break;
