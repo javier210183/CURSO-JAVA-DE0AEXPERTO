@@ -28,6 +28,5 @@ public class WrapperInteger {
         
         Long longObjeto = intObjeto.longValue();
         System.out.println("longObjeto = " + longObjeto);
-
     }
 }
