@@ -24,12 +24,14 @@ public class PasarPorReferencia2 {
         System.out.println("Despues de imbocar al metodo test");
 
 
-        System.out.println("Finaliza el metodo main con los datos del arreglo modificados! " );
+        System.out.println("Finaliza el metodo main con los datos de la persona modificados! " );
     }
     public static void test(Persona persona){
         System.out.println("Iniciamos el metodo test " );
 
        persona.modificarNombre("Pepe");
+        System.out.println("persona.nombre = " + persona.leerNombre());
+
         System.out.println("Finaliza el metodo test");
     }
 }
