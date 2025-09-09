@@ -18,7 +18,6 @@ public class EjemploJavaUtilDateParse {
         Date fecha = null;
 
         try {
-
             fecha = format.parse(s.next());
             System.out.println("fecha = " + fecha);
             System.out.println("format = " + format.format(fecha));
