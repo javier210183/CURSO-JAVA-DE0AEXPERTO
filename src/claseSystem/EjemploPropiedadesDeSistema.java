@@ -16,6 +16,7 @@ public class EjemploPropiedadesDeSistema {
         System.out.println("java = " + java);
         
         String lineSeparator = System.getProperty("line.separator");
+
         System.out.println("lineSeparator:" +  lineSeparator + "una linea nueva");
     }
 }
